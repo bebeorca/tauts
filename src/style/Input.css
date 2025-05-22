@@ -1,0 +1,81 @@
+/* .input-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+input {
+  padding: 20px;
+  width: 580px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+}
+
+label {
+  position: absolute;
+  top: 1.2rem;
+  left: 1rem;
+  color: var(--slighttext);
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  top: 0.2rem;
+  left: 1rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: transparent;
+} */
+
+.inputgroup {
+    margin-bottom: 4.8rem;
+  width: 580px;
+}
+
+.entryarea {
+  position: relative;
+}
+
+input {
+  position: absolute;
+  width: 100%;
+  outline: none;
+  border-radius: 20px;
+  background-color: white;
+  /* transition: 0.2s ease; */
+  padding: 20px;
+  border: none;
+}
+
+.labelline {
+  position: absolute;
+  top: 1.2rem;
+  background-color: transparent;
+  color: var(--slighttext);
+  left: 1rem;
+  font-size: 1rem;
+  z-index: 1111;
+  padding: 0 5px;
+  transition: all 0.2s ease;
+}
+
+input:focus{
+    border: 2px solid black
+}
+
+input::placeholder {
+  color: transparent;
+} 
+
+input:focus + .labelline,
+input:not(:placeholder-shown) + .labelline {
+    margin-left: 10px;
+    transform: translate(-15px, -16px) scale(.85);
+}

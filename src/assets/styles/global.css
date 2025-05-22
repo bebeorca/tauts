@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.itsthelink {
+  font-family: "Alata";
+  border: 2px solid black;
+  border-radius: 60px;
+  padding: 20px;
+  margin-top: 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  max-width: 680px;
+  overflow: hidden;
+}
+
+.itsthelinkontheuser {
+  font-family: "Alata";
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 510px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.linkonusercontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  text-decoration: none;
+}
+
+.deletebutton {
+  width: 40px;
+  height: 40px;
+  background-color: var(--otherred);
+  padding: 8px;
+  border-radius: 100%;
+  display: flex;
+  border: none;
+}
+
+.editbutton {
+  width: 40px;
+  height: 40px;
+  background-color: var(--primdark);
+  padding: 8px;
+  border-radius: 100%;
+  display: flex;
+  border: none;
+}
+
+.editbutton img,
+.deletebutton img {
+  background-color: transparent;
+}
+
+.headbutton {
+  display: flex;
+  gap: 12px;
+}
+
+.buttonlogin {
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 30px;
+  border: 3px solid black;
+  background-color: white;
+  font-size: 26px;
+}
+
+.buttondaftar {
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 30px;
+  border: 3px solid black;
+  background-color: var(--primdark);
+  color: white;
+  font-size: 26px;
+}
+
+.greenbutton {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 100px;
+  border: 2px solid black;
+  background-color: var(--green);
+  color: white;
+  font-size: 52px;
+  font-weight: bolder;
+  font-family: "Rubik";
+}
+
+.greenbutton-daftar {
+  width: 580px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 100px;
+  border: 2px solid black;
+  background-color: var(--green);
+  color: white;
+  font-size: 38px;
+  font-weight: bolder;
+  font-family: "Rubik";
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 8px;
+}
+
+.flex1{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 130px;
+}
+
+.linksview{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}

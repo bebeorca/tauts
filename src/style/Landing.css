@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--mainbg);
+}
+
+.border-wrapper {
+  height: 85vh;
+  border: 2px solid black;
+  border-radius: 80px;
+  margin: 45px;
+  padding: 35px;
+  display: flexbox;
+}
+
+.headsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Alata";
+}
+
+.imglogo {
+  width: 60px;
+  height: 60px;
+}
+
+.logo {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.bodysection {
+  align-items: center;
+  position: relative;
+  bottom: -20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftbody h1{
+  font-family: "Rubik";
+  font-weight: bolder;
+  font-size: 72px;
+}
+
+.rightbody{
+  background-color: var(--primbg);
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 60px;
+  width: 380px;
+  font-family: 'Alata';
+  height: 640px;
+  right: 0%;
+  top: -80px;
+  position: absolute;
+}
+
+.profile-box{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background-color: transparent;
+  gap: 12px;
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+
+.profile-box h1{
+  background-color: transparent;
+  color: white;
+}
+
+.profile-img{
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: var(--primdark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-user{
+  display: grid;
+  background-color: transparent;
+  margin-bottom: 12px;
+}
+
+.profile-user span{
+  background-color: transparent;
+}
+
+.profile-user .userspan{
+  font-size: 30px;
+}
+
+.bids-container{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  gap: 18px;
+  position: absolute;
+  background-color: transparent;
+  right: 28%;
+  top: 88%;
+}
+
+.bids{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bids img{
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+}

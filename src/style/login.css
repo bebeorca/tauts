@@ -1,0 +1,21 @@
+.authcontainer{
+  padding: 70px;
+  font-family: "Alata";
+  display: flexbox;
+}
+
+.mid-section{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.mid-section h1{
+  font-family: 'Rubik';
+  font-weight: bolder;
+  font-size: 72px;
+}
+
+.mid-section button{
+  margin-top: 40px;
+}
