@@ -9,6 +9,7 @@ import createLink from "../services/post/create.post";
 import fetchProfileAndLinks from '../services/user/profileandlinks';
 import handleDeleteLink from '../services/link/handledelete';
 import handleUpdateLink from '../services/link/handleedit';
+import CopyButton from "../components/script";
 
 function Dashboard() {
   const [profile, setProfile] = useState(null);
@@ -32,11 +33,14 @@ function Dashboard() {
   return (
     <div className='dashcontainer'>
       <div className="leftdashcontainer">
-        <div className="profilecontainer">
-          <div className="profilepic">
-            <p>{prefixn}</p>
+        <div className="flex2">
+          <div className="profilecontainer">
+            <div className="profilepic">
+              <p>{prefixn}</p>
+            </div>
+            <h1>{profile.name}</h1>
           </div>
-          <h1>{profile.name}</h1>
+          <CopyButton name={profile.name} />
         </div>
         <h3>Tambah tautan</h3>
         <form className="formcontainer" onSubmit={handleSubmit}>
